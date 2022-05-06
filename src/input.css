@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+     @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+
+.btn-purple {
+     @apply bg-bookmark-purple text-white;
+}
+
+.btn-white {
+     @apply bg-bookmark-white;
+}
+
+::-webkit-scrollbar {
+     width: 0.6rem;
+     border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+     background-color: #5267DF;
+     border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+     background-color: #cbd0eb;
+     border-radius: 5px;
+}
